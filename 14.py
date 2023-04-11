@@ -6,7 +6,7 @@ N = int(input("Введите число N: "))
 
 result = 1
 
-print("10 ->", end = " ")
+print(f"{N} ->", end = " ")
 
 while N > result:
     print(result, end = " ")
